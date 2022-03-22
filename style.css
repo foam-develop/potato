@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: MonumentGrotesk;
+    src: url(MonumentGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family: MonumentGrotesk-Italic;
+    src: url(MonumentGrotesk-Italic.otf);
+}
+
+body {
+    padding: 20px;
+    height: 100vh;
+    font-family: MonumentGrotesk;
+    position: relative;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}   
+
+h1 {
+    font-weight: 500;
+}
+
+#canvas {
+    width: 100vw;
+    height: 100vh;
+}
+
+#potato {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#potato-img {
+    width: 400px;
+}
+
+button {
+    position: absolute;
+    font-family: MonumentGrotesk;
+    font-size: 2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    background-color: transparent;
+    padding: 0.2em; 
+}
