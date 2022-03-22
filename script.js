@@ -5,6 +5,7 @@ import {
 const element = document.getElementById("potato");
 console.log(element);
 mouseDrag(element);
+touchDrag(element);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
