@@ -44,7 +44,7 @@ h1 {
 }
 
 #potato-img {
-    width: 400px;
+    width: 200px;
 }
 
 button {
@@ -57,4 +57,10 @@ button {
     text-decoration: none;
     background-color: transparent;
     padding: 0.2em; 
+}
+
+@media only screen and (min-width: 768px) {
+    #potato-img {
+        width: 400px;
+    }
 }
