@@ -9,6 +9,6 @@ touchDrag(element);
 
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
-ctx.moveTo(0, 0);
-ctx.lineTo(50, 100);
+ctx.moveTo(250, 60);
+ctx.lineTo(300, 250);
 ctx.stroke();
